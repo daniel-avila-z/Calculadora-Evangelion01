@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora-Asuka</title>
+    <link href="../NumberStyle/Calculator.ttf" rel="stylesheet">
+    <link href="index02.css" rel="stylesheet" />
+    <script src="Display02.js" type="text/javascript"></script>
+    <script src="Calculadora02.js" type="text/javascript"></script>
+    <script src="index02.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <div class = "evas">  
+        <div>
+            <a href="../Rei/index00.html">
+                <button id= "rei"> 00 </button>
+            </a>
+        </div>
+        <div>
+            <a href="../index.html">
+                <button id= "shinji" > 01 </button>
+            </a>
+        </div>
+    </div>
+    <div class="backgroundcss">
+    </div>
+    <div class="container">
+        <div class="calculadora">
+            <div class="display">
+                <div id="valor-anterior"></div>
+                <div id="valor-actual"></div>
+            </div>
+            <button class="col-2 boton azul" onclick="display.borrarTodo()">C</button>
+            <button class="boton" onclick="display.borrar()">&larr;</button>
+            <button class="operador boton" value="dividir">/</button>
+            <button class="numero boton">7</button>
+            <button class="numero boton">8</button>
+            <button class="numero boton">9</button>
+            <button class="operador boton" value="multiplicar">X</button>
+            <button class="numero boton">4</button>
+            <button class="numero boton">5</button>
+            <button class="numero boton">6</button>
+            <button class="operador boton" value="restar">-</button>
+            <button class="numero boton">1</button>
+            <button class="numero boton">2</button>
+            <button class="numero boton">3</button>
+            <button class="operador boton" value="sumar">+</button>
+            <button class="col-2 numero boton negro">0</button>
+            <button class="numero boton">.</button>
+            <button class="operador boton" value="igual">=</button>
+        </div> 
+    </div>
+    <script src="background02.js" type="text/javascript"></script>
+</body>
+</html>

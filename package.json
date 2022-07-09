@@ -1,0 +1,16 @@
+{
+  "name": "micalculadora",
+  "version": "1.0.0",
+  "description": "\"mi primera calculadora que mejorare cada que aprenda algo nuevo\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "evangelion",
+    "calculadora",
+    "js"
+  ],
+  "author": "Daniel Avila",
+  "license": "MIT"
+}
